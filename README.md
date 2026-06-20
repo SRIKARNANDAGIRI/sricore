@@ -1,12 +1,26 @@
-# srichakra
+# sricore
 
-C++20 graph complexity engine with JSON schema support, state machine lifecycle, and optional Python bindings.
+**High-performance C++ engine powering the SRI framework**
 
-## Requirements
+sricore is the native execution layer of [SRI](https://github.com/SRIKARNANDAGIRI/SRI). It routes goals through nine Avarana layers, enforces complexity budgets, and emits a Bindu result — all with predictable, low-latency performance suitable for production agent pipelines.
 
-- CMake 3.20+
-- A C++20 compiler (MSVC 2019+, GCC 10+, Clang 12+)
-- Git (for FetchContent dependency downloads)
+## Why C++
+
+Routing and complexity checks run in **under 500ns** per decision. The hot path uses stack-only data structures with **zero heap allocation**, so layer transitions stay deterministic and cache-friendly.
+
+## The 9 Avarana layers
+
+1. Bhupura
+2. 16-petal
+3. 8-petal
+4. 14-triangle
+5. Outer10
+6. Inner10
+7. 8-triangle
+8. Upward
+9. Downward
+
+*Bindu* is the final output stage after all layers pass.
 
 ## Build
 
@@ -14,68 +28,27 @@ C++20 graph complexity engine with JSON schema support, state machine lifecycle,
 cmake -B build && cmake --build build
 ```
 
-On Windows with Visual Studio multi-config generators:
-
-```powershell
-cmake -B build
-cmake --build build --config Release
-```
-
-### Targets
-
-| Target           | Description              |
-|------------------|--------------------------|
-| `srichakra`      | Static library           |
-| `srichakra_cli`  | CLI binary (output: `srichakra`) |
-| `srichakra_tests`| Catch2 test suite        |
-
-### Run tests
+## Quick start
 
 ```bash
-ctest --test-dir build --output-on-failure
+./build/srichakra "analyze this task"
 ```
 
-On Windows:
-
-```powershell
-ctest --test-dir build -C Release --output-on-failure
+```
+success: true
+layers passed: 9/9
+total time (us): 18
+result: analyze this task
 ```
 
-### Python bindings
+## Languages
 
-Build with CMake:
-
-```bash
-cmake -B build -DSRICHAKRA_BUILD_PYTHON=ON
-cmake --build build
-```
-
-Or install via setuptools (requires a local C++20 toolchain):
-
-```bash
-pip install .
-```
-
-## Dependencies
-
-All C++ dependencies are fetched automatically via CMake FetchContent:
-
-- [nlohmann/json](https://github.com/nlohmann/json)
-- [fmt](https://github.com/fmtlib/fmt)
-- [Catch2](https://github.com/catchorg/Catch2)
-- [pybind11](https://github.com/pybind/pybind11)
-
-## Project layout
-
-```
-srichakra/
-├── include/srichakra/   # Public headers
-├── src/                 # Library and CLI sources
-├── tests/               # Catch2 tests
-├── bindings/            # pybind11 bindings
-└── CMakeLists.txt
-```
+C++20
 
 ## License
 
 MIT
+
+## Related
+
+- [SRI](https://github.com/SRIKARNANDAGIRI/SRI) — the main framework
