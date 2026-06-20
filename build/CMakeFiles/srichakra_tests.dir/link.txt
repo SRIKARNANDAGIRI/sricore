@@ -1,3 +1,0 @@
-D:\anaconda\Lib\site-packages\cmake\data\bin\cmake.exe -E rm -f CMakeFiles\srichakra_tests.dir/objects.a
-"D:\sri with srichakra\.tools\mingw\mingw64\bin\ar.exe" qc CMakeFiles\srichakra_tests.dir/objects.a @CMakeFiles\srichakra_tests.dir\objects1.rsp
-"D:\sri with srichakra\.tools\mingw\mingw64\bin\c++.exe" -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\srichakra_tests.dir/objects.a -Wl,--no-whole-archive -o srichakra_tests.exe -Wl,--out-implib,libsrichakra_tests.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\srichakra_tests.dir\linkLibs.rsp

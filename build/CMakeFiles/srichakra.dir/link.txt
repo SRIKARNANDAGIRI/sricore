@@ -1,2 +1,0 @@
-"D:\sri with srichakra\.tools\mingw\mingw64\bin\ar.exe" qc libsrichakra.a CMakeFiles/srichakra.dir/src/complexity.cpp.obj CMakeFiles/srichakra.dir/src/engine.cpp.obj
-"D:\sri with srichakra\.tools\mingw\mingw64\bin\ranlib.exe" libsrichakra.a
