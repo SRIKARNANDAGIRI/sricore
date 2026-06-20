@@ -1,0 +1,12 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/sri with srichakra/srichakra/build/cmake_install.cmake",
+		"D:/sri with srichakra/srichakra/build/_deps/nlohmann_json-build/cmake_install.cmake",
+		"D:/sri with srichakra/srichakra/build/_deps/fmt-build/cmake_install.cmake",
+		"D:/sri with srichakra/srichakra/build/_deps/catch2-build/cmake_install.cmake",
+		"D:/sri with srichakra/srichakra/build/_deps/catch2-build/src/cmake_install.cmake",
+		"D:/sri with srichakra/srichakra/build/_deps/pybind11-build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

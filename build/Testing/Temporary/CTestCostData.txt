@@ -1,0 +1,8 @@
+ComplexityCalculator performance 1 1.99118
+Goal stores input, id, and timestamp 1 0.0178194
+StateMachine starts at layer 0 1 0.0152874
+StateMachine passes all 9 layers for a simple goal 1 0.0178333
+StateMachine rejects a complex nested goal 1 0.0175284
+Engine::process succeeds on a simple goal 1 0.0183374
+Engine::process fails on an extremely long deeply nested goal 1 0.0177403
+---

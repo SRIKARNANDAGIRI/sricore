@@ -1,0 +1,5 @@
+if(EXISTS "D:/sri with srichakra/srichakra/build/srichakra_tests-b12d07c_tests.cmake")
+  include("D:/sri with srichakra/srichakra/build/srichakra_tests-b12d07c_tests.cmake")
+else()
+  add_test(srichakra_tests_NOT_BUILT-b12d07c srichakra_tests_NOT_BUILT-b12d07c)
+endif()

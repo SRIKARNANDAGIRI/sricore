@@ -1,0 +1,163 @@
+Start testing: Jun 20 23:01 India Standard Time
+----------------------------------------------------------
+1/7 Testing: ComplexityCalculator performance
+1/7 Test: ComplexityCalculator performance
+Command: "D:/sri with srichakra/srichakra/build/srichakra_tests.exe" "ComplexityCalculator performance"
+Directory: D:/sri with srichakra/srichakra/build
+"ComplexityCalculator performance" start time: Jun 20 23:01 India Standard Time
+Output:
+----------------------------------------------------------
+Filters: "ComplexityCalculator performance"
+Randomness seeded to: 1263604962
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+srichakra_tests.exe is a Catch2 v3.5.4 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+ComplexityCalculator performance
+-------------------------------------------------------------------------------
+D:\sri with srichakra\srichakra\tests\test_performance.cpp:19
+...............................................................................
+
+benchmark name                       samples       iterations    est run time
+                                     mean          low mean      high mean
+                                     std dev       low std dev   high std dev
+-------------------------------------------------------------------------------
+calculate complexity score                     100          5505      4.404 ms 
+                                        4.42089 ns    3.96312 ns    5.15295 ns 
+                                        2.89083 ns    1.99506 ns    4.19379 ns 
+                                                                               
+
+===============================================================================
+All tests passed (2 assertions in 1 test case)
+
+<end of output>
+Test time =   1.99 sec
+----------------------------------------------------------
+Test Passed.
+"ComplexityCalculator performance" end time: Jun 20 23:01 India Standard Time
+"ComplexityCalculator performance" time elapsed: 00:00:01
+----------------------------------------------------------
+
+2/7 Testing: Goal stores input, id, and timestamp
+2/7 Test: Goal stores input, id, and timestamp
+Command: "D:/sri with srichakra/srichakra/build/srichakra_tests.exe" "Goal stores input\, id\, and timestamp"
+Directory: D:/sri with srichakra/srichakra/build
+"Goal stores input, id, and timestamp" start time: Jun 20 23:01 India Standard Time
+Output:
+----------------------------------------------------------
+Filters: "Goal stores input\, id\, and timestamp"
+Randomness seeded to: 1924744138
+===============================================================================
+All tests passed (3 assertions in 1 test case)
+
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"Goal stores input, id, and timestamp" end time: Jun 20 23:01 India Standard Time
+"Goal stores input, id, and timestamp" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/7 Testing: StateMachine starts at layer 0
+3/7 Test: StateMachine starts at layer 0
+Command: "D:/sri with srichakra/srichakra/build/srichakra_tests.exe" "StateMachine starts at layer 0"
+Directory: D:/sri with srichakra/srichakra/build
+"StateMachine starts at layer 0" start time: Jun 20 23:01 India Standard Time
+Output:
+----------------------------------------------------------
+Filters: "StateMachine starts at layer 0"
+Randomness seeded to: 2752970991
+===============================================================================
+All tests passed (3 assertions in 1 test case)
+
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"StateMachine starts at layer 0" end time: Jun 20 23:01 India Standard Time
+"StateMachine starts at layer 0" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/7 Testing: StateMachine passes all 9 layers for a simple goal
+4/7 Test: StateMachine passes all 9 layers for a simple goal
+Command: "D:/sri with srichakra/srichakra/build/srichakra_tests.exe" "StateMachine passes all 9 layers for a simple goal"
+Directory: D:/sri with srichakra/srichakra/build
+"StateMachine passes all 9 layers for a simple goal" start time: Jun 20 23:01 India Standard Time
+Output:
+----------------------------------------------------------
+Filters: "StateMachine passes all 9 layers for a simple goal"
+Randomness seeded to: 2722702338
+===============================================================================
+All tests passed (38 assertions in 1 test case)
+
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"StateMachine passes all 9 layers for a simple goal" end time: Jun 20 23:01 India Standard Time
+"StateMachine passes all 9 layers for a simple goal" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/7 Testing: StateMachine rejects a complex nested goal
+5/7 Test: StateMachine rejects a complex nested goal
+Command: "D:/sri with srichakra/srichakra/build/srichakra_tests.exe" "StateMachine rejects a complex nested goal"
+Directory: D:/sri with srichakra/srichakra/build
+"StateMachine rejects a complex nested goal" start time: Jun 20 23:01 India Standard Time
+Output:
+----------------------------------------------------------
+Filters: "StateMachine rejects a complex nested goal"
+Randomness seeded to: 435722871
+===============================================================================
+All tests passed (5 assertions in 1 test case)
+
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"StateMachine rejects a complex nested goal" end time: Jun 20 23:01 India Standard Time
+"StateMachine rejects a complex nested goal" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/7 Testing: Engine::process succeeds on a simple goal
+6/7 Test: Engine::process succeeds on a simple goal
+Command: "D:/sri with srichakra/srichakra/build/srichakra_tests.exe" "Engine::process succeeds on a simple goal"
+Directory: D:/sri with srichakra/srichakra/build
+"Engine::process succeeds on a simple goal" start time: Jun 20 23:01 India Standard Time
+Output:
+----------------------------------------------------------
+Filters: "Engine::process succeeds on a simple goal"
+Randomness seeded to: 3275708858
+===============================================================================
+All tests passed (4 assertions in 1 test case)
+
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"Engine::process succeeds on a simple goal" end time: Jun 20 23:01 India Standard Time
+"Engine::process succeeds on a simple goal" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/7 Testing: Engine::process fails on an extremely long deeply nested goal
+7/7 Test: Engine::process fails on an extremely long deeply nested goal
+Command: "D:/sri with srichakra/srichakra/build/srichakra_tests.exe" "Engine::process fails on an extremely long deeply nested goal"
+Directory: D:/sri with srichakra/srichakra/build
+"Engine::process fails on an extremely long deeply nested goal" start time: Jun 20 23:01 India Standard Time
+Output:
+----------------------------------------------------------
+Filters: "Engine::process fails on an extremely long deeply nested goal"
+Randomness seeded to: 992763057
+===============================================================================
+All tests passed (4 assertions in 1 test case)
+
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"Engine::process fails on an extremely long deeply nested goal" end time: Jun 20 23:01 India Standard Time
+"Engine::process fails on an extremely long deeply nested goal" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 20 23:01 India Standard Time
